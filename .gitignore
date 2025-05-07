@@ -1,6 +1,7 @@
-*.log
-*.aux
-*.fdb_latexmk
-*.fls
-*.out
-*.synctex.gz
+resume.log
+resume.aux
+resume.fdb_latexmk
+resume.fls
+resume.out
+resume.synctex.gz
+resume.dvi

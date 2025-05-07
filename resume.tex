@@ -114,17 +114,21 @@
 
     \resumeSubSubheading
         {Firmware Platforms Intern}{Fall 2023}
+
+
     \resumeItemListStart
-    \resumeItem{Developed low-level firmware features for use on multi-core, multi-MCU vehicle controllers with an emphasis on firmware developer experience.}
-    \resumeItem{Brought up new multi-MCU PCBs for use in upcoming vehicle programs.}
-    \resumeItem{Developed firmware tooling in Python to automate initial board bringup and the generation of board-level drivers.}
+    \resumeItem{Developing and maintaining low-level driver support for many different microcontroller architectures and families for use across multiple teams at Tesla.}
+    \resumeItem{Reviewing hardware designs and bringing up many new multi-MCU PCBs for use in upcoming vehicle programs.}
+    \resumeItem{Owning firmware build systems, code generation tooling, and debugging tooling to improve developer efficiency.}
+    \resumeItem{Creating hardware-in-the-loop testing systems for validating low-level firmware.}
     \resumeItemListEnd
 
     \resumeSubSubheading
-    {Firmware Integration Intern}{Summer 2022}
+        {Firmware Integration Intern}{Summer 2022}
+
     \resumeItemListStart
-        \resumeItem{Owned several firmware features, working with external suppliers and mechanical, electrical, firmware, regulatory and safety teams across Tesla to bring them into production.}
-        \resumeItem{Wrote safety-critical user-facing vehicle firmware in C for Tesla vehicle interiors.}
+        \resumeItem{Owned several firmware features end-to-end, working with external suppliers and mechanical, electrical, firmware, regulatory and safety teams across Tesla to bring them into production.}
+        \resumeItem{Wrote safety-critical vehicle firmware in bare-metal C on Cortex-M microcontrollers for interior vehicle endpoints.}
         \resumeItem{Presented prototype vehicle features to company executives.}
     \resumeItemListEnd
 
@@ -132,21 +136,17 @@
         {NVIDIA}{Santa Clara, CA}
         {Firmware Development Intern}{Fall 2021}
     \resumeItemListStart
-        \resumeItem{Wrote U-Boot and embedded Linux firmware for an ARM Cortex-A processor on a PCIe device.}
+        \resumeItem{Wrote U-Boot and embedded Linux firmware for an ARM Cortex-A processor on a custom PCIe device.}
         \resumeItem{Developed kernel and userspace drivers in C for a PCIe controller and PHY.}
     \resumeItemListEnd
 
     \resumeSubheading
         {Kepler Communications}{Toronto, Canada}
-        {Firmware Development Intern}{Winter 2021}
-    \resumeItemListStart
-        \resumeItem{Owned firmware development for a new cutting-edge satellite radio using C on a Cortex-M platform.}
-        \resumeItem{Wrote satellite flight computer firmware using C and FreeRTOS on a Cortex-R processor in an SOC.}
-    \resumeItemListEnd
+        {Firmware Development Intern}{Summer 2020, Winter 2021}
 
-    \resumeSubSubheading
-    {Software Development Intern}{Summer 2020}
     \resumeItemListStart
+        \resumeItem{Owned firmware development for a new cutting-edge satellite radio using C bare-metal on a Cortex-M MCU.}
+        \resumeItem{Wrote satellite flight computer firmware using C and FreeRTOS on a Cortex-R processor in a Xilinx SOC.}
         \resumeItem{Wrote a file system and ARQ protocol for satellite communications using C++ on a Linux platform, improving satellite throughput by 5-200\%.}
     \resumeItemListEnd
 
@@ -161,7 +161,7 @@
         {Senior Capstone Project -- Remotely Operated Quadcopter}{2023 -- 2024}
     \resumeItemListStart
         \resumeItem{Designed one of two onboard drone PCBs, which included a microcontroller, digital radio, USB-PD sink, power regulation, GPS, video transmitter, and a Qi wireless charging sink.}
-        \resumeItem{Wrote all onboard firmware, including PID controls, using FreeRTOS on a Cortex-M microcontroller.}
+        \resumeItem{Wrote all onboard firmware, including PID flight controls, using FreeRTOS on a Cortex-M microcontroller.}
         \resumeItem{Created tooling in Python for generating peripheral drivers for the 10+ onboard ICs from YAML register maps.}
         \resumeItem{Wrote ground station software and a control terminal program using Python and React with gRPC.}
     \resumeItemListEnd
@@ -170,7 +170,7 @@
         {Student Team -- Killick-1 Cubesat}{2020 -- 2022}
     \resumeItemListStart
         \resumeItem{Designed the software architecture for a scientific nanosatellite ground station and led a team of four students in its implementation.}
-        \resumeItem{Wrote Python software for satellite tracking, communication and scheduling, telemetry database management, and data visualization.}
+        \resumeItem{Wrote Python for satellite tracking, communication and scheduling, telemetry database management, data visualization and remote control.}
     \resumeItemListEnd
 
 \resumeSubHeadingListEnd
@@ -183,7 +183,7 @@
     \vspace{6pt}
     \setlength\itemsep{0px}
     \skillItem{Languages}{C, C++, Python, Java, Rust, Javascript}
-    \skillItem{Tools \& Frameworks}{Linux, U-Boot, FreeRTOS, Make, CMake, SCons, GDB, Git, Docker, OpenGL}
+    \skillItem{Tools \& Frameworks}{Linux, U-Boot, FreeRTOS, Make, CMake, SCons, Buck2, GDB, Git, Docker, OpenGL}
     \skillItem{Protocols}{HDMI, PCIe, TCP, UDP, SPI, I2C, I2S, UART, CAN, LIN, LoRa}
     \skillItem{Hardware}{PCB schematic \& layout with KiCAD; LV system design; PCB bringup, rework, and lab skills }
 

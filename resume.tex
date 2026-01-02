@@ -37,7 +37,7 @@
   \vspace{-4pt}\scshape\raggedright\large
 }{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
 
-% Ensure that generate pdf is machine readable/ATS parsable
+% Ensure that generated pdf is machine readable/ATS parsable
 \pdfgentounicode=1
 
 
@@ -96,7 +96,7 @@
 \resumeSubHeadingListStart
     \resumeSubheading
         {Memorial University of Newfoundland}{St. John's, Canada}
-        {Bachelor of Computer Engineering; GPA: 4.00 / 94.8\%}{2019 -- 2024}
+        {Bachelor of Computer Engineering; 4.00 GPA / 94.8\%; Valedictorian.}{2019 -- 2024}
 \resumeSubHeadingListEnd
 
 
@@ -108,7 +108,7 @@
 
     \resumeSubheading
         {Tesla}{Palo Alto, CA}
-        {Firmware Platforms Engineer}{Fall 2024 --}
+        {Firmware Platforms Engineer}{Fall 2024 -- Present}
 
     \vspace{0.5pt}
 
@@ -117,9 +117,10 @@
 
 
     \resumeItemListStart
-    \resumeItem{Developing and maintaining low-level driver support for many different microcontroller architectures and families for use across multiple teams at Tesla.}
-    \resumeItem{Reviewing hardware designs and bringing up many new multi-MCU PCBs for use in upcoming vehicle programs.}
-    \resumeItem{Owning firmware build systems, code generation tooling, and debugging tooling to improve developer efficiency.}
+    \resumeItem{Developing low-level drivers for numerous microcontroller families for use across the Tesla vehicle firmware org.}
+    \resumeItem{Owning the firmware build system for 50+ developers, including a fresh rewrite to improve build speed by 5-20x.}
+    \resumeItem{Bringing up new PCBA designs on a monthly basis, working with HW engineers on review and validation.}
+    \resumeItem{Creating and maintaining internal tooling to improve embedded developer experience and efficiency.}
     \resumeItem{Creating hardware-in-the-loop testing systems for validating low-level firmware.}
     \resumeItemListEnd
 
@@ -147,7 +148,7 @@
     \resumeItemListStart
         \resumeItem{Owned firmware development for a new cutting-edge satellite radio using C bare-metal on a Cortex-M MCU.}
         \resumeItem{Wrote satellite flight computer firmware using C and FreeRTOS on a Cortex-R processor in a Xilinx SOC.}
-        \resumeItem{Wrote a file system and ARQ protocol for satellite communications using C++ on a Linux platform, improving satellite throughput by 5-200\%.}
+        \resumeItem{Wrote a satellite file system and ARQ protocol using C++ on a Linux platform, improving throughput by 5-200\%.}
     \resumeItemListEnd
 
 \resumeSubHeadingListEnd
@@ -160,8 +161,8 @@
     \projectSubheading
         {Senior Capstone Project -- Remotely Operated Quadcopter}{2023 -- 2024}
     \resumeItemListStart
-        \resumeItem{Designed one of two onboard drone PCBs, which included a microcontroller, digital radio, USB-PD sink, power regulation, GPS, video transmitter, and a Qi wireless charging sink.}
-        \resumeItem{Wrote all onboard firmware, including PID flight controls, using FreeRTOS on a Cortex-M microcontroller.}
+        \resumeItem{Designed one of two onboard drone PCBs, including an RP2040 microcontroller, Semtech LoRa radio, USB-PD sink, power regulation, GPS, video transmitter, and a Qi wireless charging sink.}
+        \resumeItem{Wrote all onboard firmware including motor controls and power management using C and FreeRTOS.}
         \resumeItem{Created tooling in Python for generating peripheral drivers for the 10+ onboard ICs from YAML register maps.}
         \resumeItem{Wrote ground station software and a control terminal program using Python and React with gRPC.}
     \resumeItemListEnd
@@ -169,8 +170,14 @@
     \projectSubheading
         {Student Team -- Killick-1 Cubesat}{2020 -- 2022}
     \resumeItemListStart
-        \resumeItem{Designed the software architecture for a scientific nanosatellite ground station and led a team of four students in its implementation.}
-        \resumeItem{Wrote Python for satellite tracking, communication and scheduling, telemetry database management, data visualization and remote control.}
+        \resumeItem{Designed the software architecture for a nanosatellite ground station and led a team of four in its implementation.}
+        \resumeItem{Wrote Python for satellite tracking and communication, telemetry management, and remote control.}
+    \resumeItemListEnd
+
+    \projectSubheading
+        {shanewilliams.ca}{2024 -- Present}
+    \resumeItemListStart
+        \resumeItem{A personal website written in Svelte and Python dedicated to Canadian political data visualization.}
     \resumeItemListEnd
 
 \resumeSubHeadingListEnd
